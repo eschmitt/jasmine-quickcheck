@@ -1,0 +1,28 @@
+{
+  "name": "jasmine-quickcheck",
+  "description": "A Jasmine 'plugin' for using quickcheck with the Jasmine test framework",
+  "version": "0.1.0",
+  "author": "loop/recur <info@looprecur.com>",
+  "maintainers": [
+    "Brian Lonsdorf <brian@looprecur.com>",
+    "Ryan Charette <ryan@looprecur.com>",
+    "Eric Schmitt <eric.schmitt@looprecur.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eschmitt/jasmine-quickcheck.git"
+  },
+  "dependencies": {
+    "preludejs": "git://github.com/loop-recur/PreludeJS.git"
+  },
+  "devDependencies": {
+    "jasmine-node": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "jasmine-node --coffee specs"
+  },
+  "main": "./jasmine-quickcheck.js"
+}

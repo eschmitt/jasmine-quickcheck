@@ -1,4 +1,4 @@
-jasmine-quickcheck-plugin
-=========================
+jasmine-quickcheck
+==================
 
-jasmine "plugin" for using quickcheck with  jasmine test framework
+jasmine "plugin" for using quickcheck with the jasmine test framework
